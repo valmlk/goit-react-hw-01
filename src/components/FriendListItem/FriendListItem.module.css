@@ -1,0 +1,32 @@
+.item {
+  background-color: #b098a4;
+  border-radius: 16px;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  /* display: flex; */
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  /* max-width: 100px; */
+  width: 88px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.status {
+  text-align: center;
+}
+
+.isOnline {
+  composes: status;
+  color: green;
+}
+
+.isOffline {
+  composes: status;
+  color: red;
+}
+
+.name {
+  text-align: center;
+}
